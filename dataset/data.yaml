@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 1
+names: ['Number-Plates']
+
+roboflow:
+  workspace: aiphotorenaming
+  project: num-plate-detection-5uqoe
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aiphotorenaming/num-plate-detection-5uqoe/dataset/3
