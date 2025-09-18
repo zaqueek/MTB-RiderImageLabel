@@ -4,6 +4,8 @@
 # After you run everything, copies of your photos with the names will end up in an output folder.
 # Currently, everything is formatted for the Roots&Rain naming reqirements.
 
+# Don't forget to install dependencies
+
 #Lmk if theres any issues.
 
 
@@ -13,7 +15,7 @@ import easyocr
 from ultralytics import YOLO
 
 # Load trained YOLO model
-MODEL_PATH = "runs/detect/train/weights/best.pt"
+MODEL_PATH = "runs/detect/train2/weights/best.pt"
 plate_model = YOLO(MODEL_PATH)
 
 # OCR reader
